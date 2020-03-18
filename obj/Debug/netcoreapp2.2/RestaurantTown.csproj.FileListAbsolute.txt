@@ -1,0 +1,6 @@
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.csprojAssemblyReference.cache
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.csproj.CoreCompileInputs.cache
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.RazorAssemblyInfo.cache
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.RazorAssemblyInfo.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.AssemblyInfoInputs.cache
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.AssemblyInfo.cs
