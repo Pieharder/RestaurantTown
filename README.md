@@ -1,14 +1,14 @@
-# _Animal Shelter_
+# _Restaurant Town_
 
-#### _MySQL & Entity Framework Core Practice for Epicodus_, _Mar. 17 2020_
+#### _MySQL & Entity Framework Core Practice for Epicodus_, _Mar. 18 2020_
 
 #### By _**Brandan Sayarath, Zakkrey Short, Geoff Goetz**_
 
 ## Description
 
-_This application will allow tracking of current animals in an animal shelter. It will allow creation of a database of animals by species, breed, gender, date of admittance and name._
+_This application will create a website where users can add their favorite restaurants based on the type of cuisine they offer._
 
-## Specifications:
+## Specifications: 
 
 | Specification | Example Input | Example Output |
 | ------------- |:-------------:| -------------------:|
@@ -41,12 +41,12 @@ _Enter the command ``dotnet tool install -g dotnet-script`` in Terminal (macOS) 
 _Enter the following commands in Terminal (macOS) or PowerShell (Windows):_
 * ``cd desktop``
 * ``git clone`` followed by the URL to this repository
-* ``cd AnimalShelter.Solution``
+* ``cd RestaurantTown.Solution``
 
 _Confirm that you have navigated to the ToDoList.Solution directory (e.g., by entering the command_ ``pwd`` _in Terminal)._
 
 _Run this application by entering the following command in Terminal (macOS) or PowerShell (Windows):_
-* ``cd AnimalShelter``
+* ``cd RestaurantTown``
 * ``dotnet restore``
 * ``dotnet build``
 * ``dotnet run`` or ``dotnet watch run``
