@@ -18,34 +18,34 @@ namespace RestaurantTown.Controllers
 
     public ActionResult Index()
     {
-      List<Cuisine> model = _db.Cusines.Include(cuisines => cuisines.Restaurants).ToList();
+      List<Restaurant> model = _db.Restaurants.Include(restaurants => restaurants.Cuisine).ToList();
       return View(model);
     }
 
     public ActionResult Create()
     {
-      ViewBag.CategoryId = new SelectList(_db.Restaurants, "RestaurantId", "Name");
+      ViewBag.CuisineId = new SelectList(_db.Cuisines, "CuisineId", "Name");
       return View();
     }
 
     [HttpPost]
-    public ActionResult Create(Cuisine cuisine)
+    public ActionResult Create(Restaurant restaurant)
     {
-      _db.Cusines.Add(cuisine);
+      _db.Restaurants.Add(restaurant);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
 
     public ActionResult Details(int id)
     {
-      Cuisine thisCuisine = _db.Cuisines.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
-      return View(thisCuisine);
+      Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
+      return View(thisRestaurant);
     }
 
     public ActionResult Edit(int id)
     {
-      var thisResturant = _db.Restaurants.FirstOrDefault(restuarants => restuarants.ItemId == id);
-      ViewBag.CuisineId = new SelectList(_db.Cusines, "CuisineId", "Name");
+      var thisResturant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
+      ViewBag.CuisineId = new SelectList(_db.Cuisines, "CuisineId", "Name");
       return View(thisResturant);
     }
 

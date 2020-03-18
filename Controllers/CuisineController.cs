@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
-using Cuisine.Models;
+using RestaurantTown.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace Cuisine.Controllers
+namespace RestaurantTown.Controllers
 {
-  public class CuisineController : Controller
+  public class CuisinesController : Controller
   {
-    private readonly CuisineContext _db;
+    private readonly RestaurantTownContext _db;
 
-    public CategoriesController(CuisineContext db)
+    public CuisinesController(RestaurantTownContext db)
     {
       _db = db;
     }
@@ -29,7 +29,7 @@ namespace Cuisine.Controllers
     [HttpPost]
     public ActionResult Create(Cuisine cuisine)
     {
-      _db.Categories.Add(cuisine);
+      _db.Cuisines.Add(cuisine);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
@@ -64,7 +64,7 @@ namespace Cuisine.Controllers
     public ActionResult DeleteConfirmed(int id)
     {
       var thisCuisine = _db.Cuisines.FirstOrDefault(cuisine => cuisine.CuisineId == id);
-      _db.Categories.Remove(thisCuisine);
+      _db.Cuisines.Remove(thisCuisine);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
