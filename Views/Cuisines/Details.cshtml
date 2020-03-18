@@ -17,10 +17,10 @@
 
 @foreach (Restaurant restaurant in @Model.Restaurants)
 {
-  <li>Name: @restaurant.Name</li>
+  <li>Restaurant: @restaurant.Name</li>
 }
 </ul>
 
 <p>@Html.ActionLink("Back to cuisines", "Index")</p>
 <p>@Html.ActionLink("Edit Cuisine", "Edit", new { id = Model.CuisineId })</p>
-<p>@Html.ActionLink("Delete Cuisine", "Delete", new { id = Model.CuisineId })</p>
+<p>@Html.ActionLink("Delete Cuisine", "Delete", new { id = Model.CuisineId })</p> 
