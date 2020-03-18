@@ -1,0 +1,15 @@
+@{
+    Layout = "_Layout";
+}
+
+@model RestaurantTown.Models.Restaurant
+
+<H2>Are you sure you want to delete this entry?</H2>
+
+@Html.DisplayNameFor(Model => model.Name): @Html.DisplayFor(Model => Model.Name)
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+
+@Html.ActionLink("Back to List", "Index")
