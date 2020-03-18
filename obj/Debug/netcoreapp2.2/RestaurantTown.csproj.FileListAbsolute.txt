@@ -26,3 +26,9 @@
 /Users/zakkreyshort/Desktop/RestaurantTown.Solution/bin/Debug/netcoreapp2.2/RestaurantTown.Views.pdb
 /Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.Views.pdb
 /Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/RestaurantTown.csproj.CopyComplete
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Cuisines/Create.g.cshtml.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Cuisines/Delete.g.cshtml.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Cuisines/Details.g.cshtml.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Cuisines/Edit.g.cshtml.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Cuisines/Index.g.cshtml.cs
+/Users/zakkreyshort/Desktop/RestaurantTown.Solution/obj/Debug/netcoreapp2.2/Razor/Views/Restaurants/Edit.g.cshtml.cs
